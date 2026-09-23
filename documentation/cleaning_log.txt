@@ -1,0 +1,9 @@
+Read raw file: data\raw\endangered_languages_raw.csv
+SHA-256: 26b55da75fc5a567a974c2c97b0a3f65a951def69da4875ac69696b3dabd0b9f
+Shape: 2722 rows x 15 columns
+Casted: Number of speakers -> Int64, Latitude/Longitude -> float64
+Added derived columns: Country count, Has coordinates, Has speaker count
+Added corrected country codes. Fix map: {'BRB': 'BLR', 'ZAI': 'COD'}
+Wrote cleaned dataset: data\processed\endangered_languages_clean.csv
+Wrote country-long dataset: data\processed\endangered_languages_countries_long.csv (3074 rows)
+Integrity checks passed: unique IDs, 2722 rows, 5 categories.
